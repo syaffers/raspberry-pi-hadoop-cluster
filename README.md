@@ -539,7 +539,7 @@ You can check `http://master:8088/cluster` to see if YARN is up and running.
 mapred --daemon start historyserver
 ```
 
-Finished or stopped jobs are listed here at `http://10.11.64.41:19888/jobhistory`.
+Finished or stopped jobs are listed here at `http://master:19888/jobhistory`.
 
 
 ### Running a large job
